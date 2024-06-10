@@ -36,6 +36,39 @@
 // const pages=document.getElementById("picture_1940");
 
 // observer.observe(pages);\
+const audioFiles = [
+     'audio/founder',
+     'audio/landing',
+     'audio/picture_1930',
+     'audio/picture_1940',
+     'audio/picture_1950',
+     'audio/picture_1960',
+     'audio/picture_1970',
+     'audio/picture_1980',
+     'audio/picture_1990',
+     'audio/picture_2000',
+     'audio/picture_2010',
+     'audio/picture_2020'
+ ];
+ // Preload audio files
+
+ function preloadAudio(files) {
+     files.forEach(file => {
+         const audio = new Audio();
+         audio.src = file;
+         audio.preload = 'auto';
+     });
+ }
+
+
+
+
+
+
+
+
+
+
 const nav_bar=document.querySelector("nav");
 const hide_nav=function(entries,observer)
 {
