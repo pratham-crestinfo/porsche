@@ -37,18 +37,18 @@
 
 // observer.observe(pages);\
 const audioFiles = [
-     'audio/founder',
-     'audio/landing',
-     'audio/picture_1930',
-     'audio/picture_1940',
-     'audio/picture_1950',
-     'audio/picture_1960',
-     'audio/picture_1970',
-     'audio/picture_1980',
-     'audio/picture_1990',
-     'audio/picture_2000',
-     'audio/picture_2010',
-     'audio/picture_2020'
+     'audio/founder.ogg',
+     'audio/landing.ogg',
+     'audio/picture_1930.ogg',
+     'audio/picture_1940.ogg',
+     'audio/picture_1950.ogg',
+     'audio/picture_1960.ogg',
+     'audio/picture_1970.ogg',
+     'audio/picture_1980.ogg',
+     'audio/picture_1990.ogg',
+     'audio/picture_2000.ogg',
+     'audio/picture_2010.ogg',
+     'audio/picture_2020.ogg'
  ];
  // Preload audio files
 
