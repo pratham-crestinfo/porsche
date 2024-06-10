@@ -60,7 +60,9 @@ const audioFiles = [
      });
  }
 
-
+ window.addEventListener('DOMContentLoaded', () => {
+            preloadAudio(audioFiles);
+        });
 
 
 
